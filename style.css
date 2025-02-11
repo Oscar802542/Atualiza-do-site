@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f0EA;
+    color: #4F4F4F;
+    font-family: "Cabin", serif;
+    font-weight: 400;
+    
+}
+
+header {
+    padding: 2rem;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+color: #808080;
+font-size: 1.8rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color:#DCDCDC;
+    cursor: pointer;
+}
+
+input::placeholder {
+ color: #D3D3D3;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color:#D3D3D3;
+    color:black;
+    padding: 1rem;
+}
+
+td {
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #D3D3D3; 
+    color:black;
+}
+
+details {
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #4F4F4F;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #808080;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color:#4F4F4F;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #DCDCDC;
+    background-color: transparent;
+}
+
+button {
+    background-color: #D3D3D3;
+    border: none;
+    padding: 0.8rem;
+    color: #808080;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color:#4F4F4F;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #808080;
+}
+ 
+/* Ajuste para alinhar corretamente todas as perguntas */
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Garante que os inputs e labels fiquem alinhados corretamente */
+.option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Ajuste global para inputs de rádio e checkbox */
+input[type="radio"], 
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #DCDCDC;
+    cursor: pointer;
+}
+
+/* Melhora o espaçamento do texto */
+label {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
